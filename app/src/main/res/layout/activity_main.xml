@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type a message" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/sendImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Image" />
+
+    <Button
+        android:id="@+id/generateTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Task" />
+
+    <Button
+        android:id="@+id/joinButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join" />
+
+    <Button
+        android:id="@+id/leaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave" />
+
+    <TextView
+        android:id="@+id/messageDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eaeaea"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:maxLines="20"
+        android:overScrollMode="always"
+        android:fadeScrollbars="false" />
+
+</LinearLayout>
