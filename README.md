@@ -24,7 +24,8 @@ Modify `Config.java` and change the IP address, you know that.
 Remember to modify all the code snippets that use this IP address.
 
 ## Sign up
-Refere to `SignupActivity.java` to implement the sign up function
+Refere to `SignupActivity.java` to implement the sign up function.
+Nothing special.
 
 ## Login
 Refere to `LoginActivity.java` to implement the sign up function. 
