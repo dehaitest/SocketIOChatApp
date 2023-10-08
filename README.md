@@ -26,15 +26,20 @@ Modify `Config.java` and change the IP address, you know that
 Refere to `SignupActivity.java` to implement the sign up function
 
 ## Login
-Refere to `LoginActivity.java` to implement the sign up function. The user information will be encoded and saved in a safe place (see line 20, 21) for further usage.
+Refere to `LoginActivity.java` to implement the sign up function. 
+The user information will be encoded and saved in a safe place (see line 20, 21) for further usage.
 Therefore, when you call automation or generation, you have to add the access code to the request body (see `MainActivity.java` line 158, 110)
+
 ![Login](https://github.com/dehaitest/SocketIOChatApp/blob/main/images/login.png)
 
 
 ## Note
 After you login, you have to call join to join a room before you can start a session. Refer to line 116 in `MainActivity.java`.
+
 ![Login](https://github.com/dehaitest/SocketIOChatApp/blob/main/images/join.png)
+
 This function sends user information to server and the server will create a new room for this user to make sure the server is only sending message to this user but not broadcast.
+
 ![Login](https://github.com/dehaitest/SocketIOChatApp/blob/main/images/task.png)
 
 
