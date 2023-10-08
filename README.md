@@ -20,7 +20,8 @@ mSocket.connect();
 You can refer to the buttons to know how to implement each function.
 
 ## Connect to server
-Modify `Config.java` and change the IP address, you know that
+Modify `Config.java` and change the IP address, you know that.
+Remember to modify all the code snippets that use this IP address.
 
 ## Sign up
 Refere to `SignupActivity.java` to implement the sign up function
