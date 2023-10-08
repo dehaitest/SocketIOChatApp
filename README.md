@@ -1,8 +1,6 @@
 # SocketIOChatApp
 
 ## How to use
-Modify `SocketIOChatApp/app/src/main/java/com/example/socketiochatapp/ChatApplication.java`, change the IP address at `mSocket = IO.socket("The server url");` to connect to the server.
-
 Add `<uses-permission android:name="android.permission.INTERNET" />` , `<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>` and `android:usesCleartextTraffic="true"` to `AndroidManifest.xml`.
 Add `implementation("io.socket:socket.io-client:2.1.0")` to gradle dependencies.
 
@@ -21,4 +19,17 @@ mSocket.connect();
 
 You can refer to the buttons to know how to implement each function.
 
+## Connect to server
+Modify `Config.java` and change the IP address, you know that
+
 ## Sign up
+Refere to `SignupActivity.java` to implement the sign up function
+
+## Login
+Refere to `LoginActivity.java` to implement the sign up function. The user information will be encoded and saved in a safe place (see line 20, 21) for further usage.
+Therefore, when you call automation or generation, you have to add the access code to the request body (see `MainActivity.java` line 158, 110)
+
+## Note
+After you login, you have to call join to join a room before you can start a session. Refer to line 116 in `MainActivity.java`.
+This function sends user information to server and the server will create a new room for this user to make sure the server is only sending message to this user but not broadcast.
+
