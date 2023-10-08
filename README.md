@@ -40,7 +40,7 @@ After you login, you have to call join to join a room before you can start a ses
 
 ![Login](https://github.com/dehaitest/SocketIOChatApp/blob/main/images/join.png)
 
-This function sends user information to server and the server will create a new room for this user to make sure the server is only sending message to this user but not broadcast.
+This function sends user information to server and the server will create a new room for this user to make sure the server is only sending message to this user but not broadcasting.
 
 ![Login](https://github.com/dehaitest/SocketIOChatApp/blob/main/images/task.png)
 
