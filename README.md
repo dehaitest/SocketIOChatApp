@@ -44,4 +44,4 @@ This function sends user information to server and the server will create a new 
 
 ![Login](https://github.com/dehaitest/SocketIOChatApp/blob/main/images/task.png)
 
-
+After you finish the session, you can just leave the room (see line 127)
